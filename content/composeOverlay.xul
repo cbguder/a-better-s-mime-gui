@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://messenger/skin/primaryToolbar.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://cs532/locale/cs532.dtd">
+<overlay id="cs532-compose-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="text/javascript" src="composeOverlay.js" />
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="cs532-strings" src="chrome://cs532/locale/cs532.properties" />
+	</stringbundleset>
+	<menuitem id="menu_securitySign2" oncommand="cs532.onSign();"/>
+	<vbox id="appcontent">
+		<hbox id="smimeBar" class="msgNotificationBar" align="center" collapsed="true" insertbefore="content-frame">
+			<description flex="1" class="msgNotificationBarText">&cs532.composeWarning;</description>
+		</hbox>
+	</vbox>
+</overlay>

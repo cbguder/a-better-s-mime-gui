@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://cs532/skin/messengerOverlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://cs532/locale/cs532.dtd">
+<overlay id="cs532-security-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="text/javascript" src="securityInfoOverlay.js" />
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="cs532-strings" src="chrome://cs532/locale/cs532.properties" />
+	</stringbundleset>
+	<vbox id="signatureCert">
+		<hbox position="2">
+			<label id="sentByLabel">&cs532.sentBy;</label>
+			<description id="cs532sender" />
+		</hbox>
+		<label id="cs532certInfo" position="3">&cs532.certInfo;</label>
+		<description id="cs532summary" position="7">&cs532.certSummary;</description>
+		<hbox id="cs532cpsBox" position="8">
+			<label>&cs532.cpsLinkLabel;</label>
+			<description><label id="cpsLink" class="text-link" href="" value="&cs532.cpsLinkText;" /></description>
+		</hbox>
+	</vbox>
+</overlay>

@@ -1,0 +1,12 @@
+<!ENTITY cs532.readWarning1 "This message is signed by ">
+<!ENTITY cs532.readWarning2 ", but the signature verifies only the message body, not the message headers.">
+<!ENTITY cs532.composeWarning "This message will be signed, but the signature will verify only the message body, not the message headers.">
+<!ENTITY cs532.cpsLinkLabel "Link to CPS:">
+<!ENTITY cs532.cpsLinkText "Click here to view Certificate Practice Statement">
+<!ENTITY cs532.noMatchAlarm "This message is signed, but the sender's email address doesn't match the one on the certificate.">
+<!ENTITY cs532.noNameMatchAlarm "This message is signed, but the sender's name doesn't match the one on the certificate.">
+<!ENTITY cs532.certInfo "Certificate Information">
+<!ENTITY cs532.sentBy "Sent by (email address in the message header):">
+<!ENTITY cs532.certSummary "This signature certificate is a Class 1 certificate. The certification authority did not check the identity of the certificate holder. Only the email address of the certificate holder is verified by the certification authority. For more information, see the Certificate Practice Statement (CPS).">
+<!ENTITY cs532.noNameMatchAlarm1 "This message is signed by ">
+<!ENTITY cs532.noNameMatchAlarm2 ", but the sender's name doesn't match the one on the certificate.">

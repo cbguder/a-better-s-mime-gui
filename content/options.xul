@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://cs532/locale/prefwindow.dtd">
+<prefwindow id="cs532Prefwindow" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&cs532Prefwindow.title;" ondialogaccept="onAccept();">
+	<script type="text/javascript" src="options.js" />
+	<prefpane id="cs532Prefpane" label="&cs532Prefpane.title;">
+		<preferences>
+			<preference id="displayName" name="extensions.cs532.displayName" type="bool"/>
+			<preference id="summary" name="extensions.cs532.summary" type="bool"/>
+			<preference id="checkName" name="extensions.cs532.checkName" type="bool"/>
+		</preferences>
+		<checkbox id="checkboolpref" preference="displayName" label="&displayName.label;" accesskey="&displayName.accesskey;" />
+		<checkbox id="checkboolpref2" preference="summary" label="&summary.label;" accesskey="&summary.accesskey;" />
+		<checkbox id="checkboolpref3" preference="checkName" label="&checkName.label;" accesskey="&checkName.accesskey;" />
+	</prefpane>
+</prefwindow>

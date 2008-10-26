@@ -1,0 +1,29 @@
+.red {
+	color: red;
+}
+
+.black {
+	color: black;
+}
+
+#warningBar {
+	background-color: red;
+	color: white;
+}
+
+#cpsLink {
+	margin-top: -2px;
+}
+
+#cs532certInfo {
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 15px;
+	margin-left: 1px;
+	border-top: 1px solid black;
+	padding-top: 15px;
+}
+
+#cs532summary {
+	margin-top: 15px;
+}

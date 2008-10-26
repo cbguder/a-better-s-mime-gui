@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://cs532/skin/messengerOverlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://cs532/locale/cs532.dtd">
+<overlay id="cs532-messenger-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="text/javascript" src="messengerOverlay.js" />
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="cs532-strings" src="chrome://cs532/locale/cs532.properties" />
+	</stringbundleset>
+	<vbox id="messagepanebox">
+		<hbox id="smimeBar" class="msgNotificationBar" align="center" insertbefore="messagepane" collapsed="true">
+			<description flex="1" class="msgNotificationBarText">&cs532.readWarning1;<span id="cs532email" class="red"></span>&cs532.readWarning2;</description>
+		</hbox>
+		<hbox id="warningBar" class="msgNotificationBar" align="center" insertbefore="messagepane" collapsed="true">
+			<description id="emailMatch" flex="1" class="msgNotificationBarText">&cs532.noMatchAlarm;</description>
+			<description id="nameMatch" flex="1" class="msgNotificationBarText">&cs532.noNameMatchAlarm1;<span id="cs532warningEmail" class="black"></span>&cs532.noNameMatchAlarm2;</description>
+		</hbox>
+	</vbox>
+</overlay>

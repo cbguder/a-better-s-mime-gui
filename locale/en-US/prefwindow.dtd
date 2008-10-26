@@ -1,0 +1,8 @@
+<!ENTITY cs532Prefwindow.title "CS 532 preferences">
+<!ENTITY cs532Prefpane.title "CS 532 preferences">
+<!ENTITY displayName.label "Display name of sender in message list">
+<!ENTITY displayName.accesskey "B">
+<!ENTITY summary.label "Display summary in Security Information window">
+<!ENTITY summary.accesskey "C">
+<!ENTITY checkName.label "Check sender name consistency">
+<!ENTITY checkName.accesskey "D">
