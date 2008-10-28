@@ -1,5 +1,6 @@
 content	cs532	content/
 locale	cs532	en-US	locale/en-US/
+locale	cs532	de-DE	locale/de-DE/
 skin	cs532	classic/1.0	skin/
 
 overlay	chrome://messenger/content/messenger.xul	chrome://cs532/content/messengerOverlay.xul
