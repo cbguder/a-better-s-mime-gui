@@ -1,0 +1,8 @@
+<!ENTITY cs532Prefwindow.title "A Better S/MIME GUI Einstellungen">
+<!ENTITY cs532Prefpane.title "A Better S/MIME GUI Einstellungen">
+<!ENTITY displayName.label "Absendername in Nachrichtenliste anzeigen">
+<!ENTITY displayName.accesskey "B">
+<!ENTITY summary.label "Zusammenfassung im Sicherheitsdialog anzeigen">
+<!ENTITY summary.accesskey "C">
+<!ENTITY checkName.label "Absendername mit Zertifikat vergleichen">
+<!ENTITY checkName.accesskey "D">

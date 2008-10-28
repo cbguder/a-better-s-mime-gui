@@ -1,0 +1,12 @@
+<!ENTITY cs532.readWarning1 "Diese Nachricht wurde signiert von ">
+<!ENTITY cs532.readWarning2 ", aber die Signatur bestätigt nur den Nachrichteninhalt, nicht die Kopfzeilen.">
+<!ENTITY cs532.composeWarning "Diese Nachricht wird unterschrieben, aber die Signatur bestätigt nur den Nachrichteninhalt, nicht die Kopfzeilen.">
+<!ENTITY cs532.cpsLinkLabel "Link zum CPS:">
+<!ENTITY cs532.cpsLinkText "Hier klicken, um das Certificate Practice Statement zu betrachten">
+<!ENTITY cs532.noMatchAlarm "Diese Nachricht wurde signiert, aber die E-Mail-Adresse stimmt nicht mit dem Zertifikat überein.">
+<!ENTITY cs532.noNameMatchAlarm "Diese Nachricht wurde signiert, aber der Absender stimmt nicht mit dem Zertifikat überein.">
+<!ENTITY cs532.certInfo "Zertifikatsinformation">
+<!ENTITY cs532.sentBy "Gesendet von (E-Mail-Adresse in den Kopfzeilen):">
+<!ENTITY cs532.certSummary "Das Zertifikat in der Signatur ist ein Class 1-Zertifikat. Die Zertifizierungsinstanz hat die Identität des Zertifikatsinhabers nicht überprüft. Es wurde lediglich die E-Mail-Adresse überprüft. Für mehr Informationen sehen Sie bitte im Certificate Practice Statement (CPS) nach.">
+<!ENTITY cs532.noNameMatchAlarm1 "Diese Nachricht wurde signiert von ">
+<!ENTITY cs532.noNameMatchAlarm2 ", aber der Absender stimmt nicht mit dem Zertifikat überein.">
