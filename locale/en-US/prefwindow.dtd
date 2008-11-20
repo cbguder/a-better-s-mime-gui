@@ -1,5 +1,5 @@
-<!ENTITY cs532Prefwindow.title "CS 532 preferences">
-<!ENTITY cs532Prefpane.title "CS 532 preferences">
+<!ENTITY cs532Prefwindow.title "A Better S/MIME GUI Preferences">
+<!ENTITY cs532Prefpane.title "A Better S/MIME GUI Preferences">
 <!ENTITY displayName.label "Display name of sender in message list">
 <!ENTITY displayName.accesskey "B">
 <!ENTITY summary.label "Display summary in Security Information window">

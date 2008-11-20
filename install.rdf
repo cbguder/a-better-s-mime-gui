@@ -3,7 +3,7 @@
  xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>cs532@sabanciuniv.edu</em:id>
-    <em:name>CS 532</em:name>
+    <em:name>A Better S/MIME GUI</em:name>
     <em:version>1.0</em:version>
     <em:creator>Can Berk Güder</em:creator>
     <em:optionsURL>chrome://cs532/content/options.xul</em:optionsURL>
