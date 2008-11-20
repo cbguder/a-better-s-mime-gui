@@ -6,6 +6,9 @@
     <em:name>A Better S/MIME GUI</em:name>
     <em:version>1.0</em:version>
     <em:creator>Can Berk Güder</em:creator>
+	<em:contributor>Albert Levi</em:contributor>
+	<em:contributor>Florian Effenberger</em:contributor>
+	<em:homepageURL>http://people.sabanciuniv.edu/levi/SMIME-GUI-addon/</em:homepageURL>
     <em:optionsURL>chrome://cs532/content/options.xul</em:optionsURL>
     <em:targetApplication>
       <Description>
