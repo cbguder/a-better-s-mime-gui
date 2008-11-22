@@ -4,7 +4,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>cs532@sabanciuniv.edu</em:id>
     <em:name>A Better S/MIME GUI</em:name>
-    <em:version>1.0</em:version>
+    <em:version>1.1</em:version>
     <em:creator>Can Berk Güder</em:creator>
 	<em:contributor>Albert Levi</em:contributor>
 	<em:contributor>Florian Effenberger</em:contributor>
