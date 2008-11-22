@@ -50,15 +50,19 @@ var DBObserver = {
 	// Components.interfaces.nsIObserver
 	observe: function(aMsgFolder, aTopic, aData) {
 		gDBView.addColumnHandler("senderCol", cs532);
+		cs532.smimebar.collapsed   = true;
+		cs532.warningbar.collapsed = true;
+		cs532.nameMatch.collapsed  = true;
+		cs532.emailMatch.collapsed = true;
 	}
 }
 
 var MsgObserver = {
 	observe: function(aMsgFolder, aTopic, aData) {
 		var prefs = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch).getBranch("extensions.cs532.");
-		cs532.smimebar.collapsed = true;
+		cs532.smimebar.collapsed   = true;
 		cs532.warningbar.collapsed = true;
-		cs532.nameMatch.collapsed = true;
+		cs532.nameMatch.collapsed  = true;
 		cs532.emailMatch.collapsed = true;
 		
 		if(!document.getElementById("signedHdrIcon").collapsed) {
@@ -82,7 +86,7 @@ var MsgObserver = {
 //							sender.textContent = gSignerCert.emailAddress;
 							cs532.warningbar.appendChild(document.getElementById("smimeBox"));
 							cs532.warningbar.collapsed = false;
-							cs532.nameMatch.collapsed = false;
+							cs532.nameMatch.collapsed  = false;
 							document.getElementById("cs532warningEmail").textContent = gSignerCert.emailAddress;
 						}
 					} else {
